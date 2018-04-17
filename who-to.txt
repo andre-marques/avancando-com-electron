@@ -1,0 +1,10 @@
+--COMANDOS--
+    - npm install --save-dev electron-reload -> observa alterações no projeto e atualiza no webview
+    - npm install --save-dev cross-env -> define que versão está usando na aplicação development
+    - npm install --save mousetrap -> criação de atalhos
+    - npm install --save-dev electron-builder -> criar instalador da aplicação
+    - npm install --save electron-updater -> auto atualizar aplicação
+
+    - code .gitignore
+    - git init
+    - git add .

@@ -1,0 +1,41 @@
+{
+  "name": "electron-curso",
+  "version": "1.0.0",
+  "description": "App de exemplo do curso",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development electron .",
+    "build": "cross-env NODE_ENV=production electron-builder -p always",
+    "build:dir": "cross-env NODE_ENV=production electron-builder --dir",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "André Marques <andre.marques.guedes1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "electron-updater": "^2.21.4",
+    "mousetrap": "^1.6.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "electron": "^1.8.4",
+    "electron-builder": "^20.8.1",
+    "electron-reload": "^1.2.2"
+  },
+  "build": {
+    "appId": "com.schoolofnet.electron-curso",
+    "productName": "Avançando com Electron",
+    "publish": {
+      "provider": "github",
+      "owner": "andre-marques",
+      "repo": ""
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "./img/tray.png",
+      "target": "nsis"
+    }
+  }
+}
