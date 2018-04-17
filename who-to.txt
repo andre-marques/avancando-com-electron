@@ -8,3 +8,6 @@
     - code .gitignore
     - git init
     - git add .
+    - git commit -m "first commit"
+    - git remote add origin https://github.com/andre-marques/avancando-com-electron.git
+    - git push -u origin master

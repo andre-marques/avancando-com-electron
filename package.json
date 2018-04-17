@@ -28,7 +28,7 @@
     "publish": {
       "provider": "github",
       "owner": "andre-marques",
-      "repo": ""
+      "repo": "avancando-com-electron"
     },
     "directories": {
       "output": "dist"

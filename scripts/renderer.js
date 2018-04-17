@@ -68,5 +68,5 @@ notification.addEventListener('click', function (e) {
 });
 
 Mousetrap.bind('up up down down t', function () {
-    alert('Erik\s Win');
+    alert('André dá hadouken! ');
 });
