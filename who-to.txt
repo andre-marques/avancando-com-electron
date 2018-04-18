@@ -11,3 +11,6 @@
     - git commit -m "first commit"
     - git remote add origin https://github.com/andre-marques/avancando-com-electron.git
     - git push -u origin master
+    - LINUX/WINDOWS
+        GH_TOKEN="36ea333d877db63ce690eef8673b444b7c6fd92f" -> LINUX
+        [Environment]::SetEnvironmentVariable("GH_TOKEN", "36ea333d877db63ce690eef8673b444b7c6fd92f", "User"); -> WINDOWS
